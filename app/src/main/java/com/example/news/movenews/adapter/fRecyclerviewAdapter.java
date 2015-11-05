@@ -35,7 +35,6 @@ public class fRecyclerviewAdapter extends RecyclerView.Adapter<fRecyclerviewAdap
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.list_item_focusnews,parent,false);
-
         return new ViewHolder(view);
     }
 
