@@ -1,12 +1,19 @@
 package com.example.news.movenews.model;
 
+<<<<<<< HEAD
 import java.io.Serializable;
+=======
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf
 import java.util.List;
 
 /**
  * Created by Yoe on 2015/10/15.
  */
+<<<<<<< HEAD
 public class NewsList implements Serializable{
+=======
+public class NewsList {
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf
 
     private String code;
     private String msg;
@@ -52,7 +59,10 @@ public class NewsList implements Serializable{
         public void setHottime(String hottime) {
             this.hottime = hottime;
         }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf
         public String getCtime() {
             return ctime;
         }
@@ -60,7 +70,10 @@ public class NewsList implements Serializable{
         public void setCtime(String ctime) {
             this.ctime = ctime;
         }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf
         public String getTitle() {
             return title;
         }

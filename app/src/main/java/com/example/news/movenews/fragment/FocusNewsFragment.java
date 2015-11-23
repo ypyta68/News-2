@@ -35,13 +35,17 @@ public class FocusNewsFragment extends Fragment {
     private List<FocusNewListResult> newsResultLists;
     private LinearLayoutManager mLayoutManager;
     private fRecyclerviewAdapter adapter;
+<<<<<<< HEAD
     private SwipyRefreshLayout FocusSwipyRefresh;
+=======
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.news_list, container, false);
         fRecyclerView = (RecyclerView) view.findViewById(R.id.focusRecyclerView);
+<<<<<<< HEAD
         FocusSwipyRefresh = (SwipyRefreshLayout) view.findViewById(R.id.swipyrefreshlayout);
         getData();
         mLayoutManager = new LinearLayoutManager(getActivity());
@@ -75,6 +79,17 @@ public class FocusNewsFragment extends Fragment {
 
     //使用okhttp获取网络新闻数据
     private void getData(){
+=======
+
+        getData();
+        mLayoutManager = new LinearLayoutManager(getActivity());
+        fRecyclerView.setLayoutManager(mLayoutManager);
+        return view;
+    }
+
+    private void getData(){
+
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf
         OkHttpClientManager.getAsyn("http://www.tngou.net/api/top/list/",
                 new OkHttpClientManager.ResultCallback<FocusNewList>() {
                     @Override

@@ -11,7 +11,10 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+<<<<<<< HEAD
         app:layout_scrollFlags="scroll|enterAlways"
+=======
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf
         android:background="@color/colorPrimaryDark"/>
 
     <ProgressBar
@@ -25,7 +28,11 @@
     <WebView
         android:id="@+id/NewsWeb"
         android:layout_width="match_parent"
+<<<<<<< HEAD
         android:layout_height="match_parent"
        />
+=======
+        android:layout_height="match_parent"/>
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf
 
 </LinearLayout>

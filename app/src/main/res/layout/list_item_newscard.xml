@@ -12,6 +12,7 @@
     app:mrl_rippleDuration="500">
 
 <android.support.v7.widget.CardView
+<<<<<<< HEAD
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:id="@+id/NewsCard"
     android:layout_width="match_parent"
@@ -20,6 +21,15 @@
     card_view:cardElevation="5dp"
     android:layout_marginRight="2dp"
     android:layout_marginLeft="2dp"
+=======
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/NewsCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card:cardCornerRadius="0dp"
+    card:cardElevation="2dp"
+    card:cardMaxElevation="@dimen/cardview_default_elevation"
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf
   >
    <RelativeLayout
        android:layout_width="match_parent"

@@ -5,13 +5,18 @@
     android:id="@+id/ripple"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+<<<<<<< HEAD
     app:mrl_rippleAlpha="0.3"
+=======
+    app:mrl_rippleAlpha="0.4"
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf
     app:mrl_rippleColor="#98F5FF"
     app:mrl_rippleHover="true"
     app:mrl_rippleOverlay="true"
     app:mrl_rippleDuration="500">
 
 <android.support.v7.widget.CardView
+<<<<<<< HEAD
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:id="@+id/focusNewsCard"
     android:layout_width="match_parent"
@@ -20,6 +25,13 @@
     card_view:cardElevation="8dp"
     android:layout_marginRight="5dp"
     android:layout_marginLeft="5dp"
+=======
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/focusNewsCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf
     >
     <RelativeLayout
         android:layout_width="match_parent"
@@ -67,4 +79,7 @@
 </android.support.v7.widget.CardView>
 
 </com.balysv.materialripple.MaterialRippleLayout>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf

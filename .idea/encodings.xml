@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+<<<<<<< HEAD
+=======
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_action_about.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_action_important.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_action_new_light.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_action_settings.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_background_drawer_header.jpg" charset="GBK" />
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

@@ -10,7 +10,10 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+<<<<<<< HEAD
 import android.widget.Toast;
+=======
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf
 
 import com.example.news.movenews.R;
 import com.example.news.movenews.adapter.RecyclerviewAdapter;
@@ -45,17 +48,21 @@ public class SportsNewsFragment extends Fragment {
         sportSwipyRefresh.setOnRefreshListener(new SwipyRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh(SwipyRefreshLayoutDirection direction) {
+<<<<<<< HEAD
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
                       sportSwipyRefresh.setRefreshing(false);
                     }
                 },5000);
+=======
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf
                 switch (direction){
                     case TOP:
                         getData(pageNum,2);
                         break;
                     case BOTTOM:
+<<<<<<< HEAD
                         if (pageNum <= 5) {
                             if (pageNum < 2) {
                                 pageNum = 2;
@@ -66,6 +73,13 @@ public class SportsNewsFragment extends Fragment {
                             Toast.makeText(getContext(), "抱歉，没有更多数据了！", Toast.LENGTH_SHORT).show();
                             sportSwipyRefresh.setRefreshing(false);
                         }
+=======
+                      if (pageNum < 2){
+                           pageNum = 2;
+                           getData(pageNum,3);
+                      }
+                        getData(pageNum++,3);
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf
                         break;
                 }
 
@@ -115,7 +129,11 @@ public class SportsNewsFragment extends Fragment {
                 case 2:
                 case 3:
                     mAdapter.notifyDataSetChanged();
+<<<<<<< HEAD
                     positionItem = pageNum * 10 - 10;
+=======
+                     positionItem = pageNum * 10 - 10;
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf
                     sRecyclerView.scrollToPosition(positionItem);
                     break;
                 case 4:

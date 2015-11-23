@@ -13,7 +13,11 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+<<<<<<< HEAD
 import com.example.news.movenews.activity.NewsWebActivity;
+=======
+import com.example.news.movenews.NewsWebActivity;
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf
 import com.example.news.movenews.R;
 import com.example.news.movenews.http.OkHttpClientManager;
 import com.example.news.movenews.model.FocusNewList;
@@ -35,7 +39,10 @@ public class fRecyclerviewAdapter extends RecyclerView.Adapter<fRecyclerviewAdap
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.list_item_focusnews,parent,false);
+<<<<<<< HEAD
 
+=======
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf
         return new ViewHolder(view);
     }
 
@@ -56,9 +63,12 @@ public class fRecyclerviewAdapter extends RecyclerView.Adapter<fRecyclerviewAdap
             public void onClick(View v) {
                 Intent intent = new Intent(mContext, NewsWebActivity.class);
                 intent.putExtra("NewsUrl",newsResultLists.get(position).getFromurl());
+<<<<<<< HEAD
                 intent.putExtra("NewsTitle",newsResultLists.get(position).getKeywords());
                 intent.putExtra("NewsContent",newsResultLists.get(position).getDescription());
                 intent.putExtra("NewsImage",newsResultLists.get(position).getImg());
+=======
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf
                 mContext.startActivity(intent);
             }
         });
@@ -77,6 +87,10 @@ public class fRecyclerviewAdapter extends RecyclerView.Adapter<fRecyclerviewAdap
             super(view);
             newsCardView = (CardView) view.findViewById(R.id.focusNewsCard);
             newsTitle = (TextView) view.findViewById(R.id.focusNewsTitle);
+<<<<<<< HEAD
+=======
+          //  newsTime = (TextView) view.findViewById(R.id.NewsTime);
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf
             newsDescription = (TextView) view.findViewById(R.id.focusNewsDescription);
             newsImage = (ImageView) view.findViewById(R.id.focusNewsImage);
         }

@@ -5,11 +5,19 @@
     android:id="@+id/swipyrefreshlayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     app:direction="both">
 
    <android.support.v7.widget.RecyclerView
         android:id="@+id/focusRecyclerView"
         android:layout_width="wrap_content"
+=======
+    app:direction="bottom">
+
+<android.support.v7.widget.RecyclerView
+        android:id="@+id/focusRecyclerView"
+        android:layout_width="match_parent"
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf
         android:layout_height="wrap_content"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         />

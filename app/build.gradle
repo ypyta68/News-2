@@ -1,13 +1,21 @@
 apply plugin: 'com.android.application'
 
 android {
+<<<<<<< HEAD
     compileSdkVersion 23
+=======
+    compileSdkVersion 22
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf
     buildToolsVersion "23.0.1"
 
     defaultConfig {
         applicationId "com.example.news.movenews"
         minSdkVersion 17
+<<<<<<< HEAD
         targetSdkVersion 23
+=======
+        targetSdkVersion 22
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf
         versionCode 1
         versionName "1.0"
     }
@@ -22,10 +30,17 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
+<<<<<<< HEAD
     compile 'com.android.support:appcompat-v7:23.0.1'
     compile 'com.android.support:design:22.2.0'
     compile 'com.android.support:cardview-v7:23.0.+'
     compile 'com.android.support:recyclerview-v7:23.0.+'
+=======
+    compile 'com.android.support:appcompat-v7:22.0.1'
+    compile 'com.android.support:design:22.2.0'
+    compile 'com.android.support:cardview-v7:22.0.+'
+    compile 'com.android.support:recyclerview-v7:22.0.+'
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf
     compile 'com.squareup.okhttp:okhttp:2.4.0'
     compile 'com.squareup.okio:okio:1.5.0'
     compile 'com.squareup.okhttp:okhttp-urlconnection:2.4.0'
@@ -33,4 +48,8 @@ dependencies {
     compile 'com.balysv:material-ripple:1.0.2'
     compile 'com.github.orangegangsters:swipy:1.2.0@aar'
     compile files('libs/gson-2.3.1.jar')
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf

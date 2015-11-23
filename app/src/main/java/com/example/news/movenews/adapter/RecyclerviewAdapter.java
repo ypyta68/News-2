@@ -10,7 +10,11 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+<<<<<<< HEAD
 import com.example.news.movenews.activity.NewsWebActivity;
+=======
+import com.example.news.movenews.NewsWebActivity;
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf
 import com.example.news.movenews.R;
 import com.example.news.movenews.http.OkHttpClientManager;
 import com.example.news.movenews.model.NewsList.NewsResultList;
@@ -50,9 +54,12 @@ public class RecyclerviewAdapter extends RecyclerView.Adapter<RecyclerviewAdapte
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(mContext, NewsWebActivity.class);
+<<<<<<< HEAD
                 intent.putExtra("NewsTitle",newsResultLists.get(position).getTitle());
                 intent.putExtra("NewsImage",newsResultLists.get(position).getPicUrl());
                 intent.putExtra("NewsContent",newsResultLists.get(position).getDescription());
+=======
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf
                 intent.putExtra("NewsUrl",newsResultLists.get(position).getUrl());
                 mContext.startActivity(intent);
             }

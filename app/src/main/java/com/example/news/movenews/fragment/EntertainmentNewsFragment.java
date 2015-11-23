@@ -11,7 +11,10 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+<<<<<<< HEAD
 import android.widget.Toast;
+=======
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf
 
 import com.example.news.movenews.R;
 import com.example.news.movenews.adapter.RecyclerviewAdapter;
@@ -53,6 +56,7 @@ public class EntertainmentNewsFragment extends Fragment {
         eRecyclerView = (RecyclerView) view.findViewById(R.id.focusRecyclerView);
         EntertainmentSwipyRefresh = (SwipyRefreshLayout) view.findViewById(R.id.swipyrefreshlayout);
         eRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
+<<<<<<< HEAD
 
         EntertainmentSwipyRefresh.setOnRefreshListener(new SwipyRefreshLayout.OnRefreshListener() {
             @Override
@@ -65,11 +69,17 @@ public class EntertainmentNewsFragment extends Fragment {
                     }
                 },5000);
 
+=======
+        EntertainmentSwipyRefresh.setOnRefreshListener(new SwipyRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh(SwipyRefreshLayoutDirection direction) {
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf
                 switch (direction) {
                     case TOP:
                         getData(pageNum, 2);
                         break;
                     case BOTTOM:
+<<<<<<< HEAD
                         if (pageNum <= 5) {
                                 if (pageNum < 2) {
                                     pageNum = 2;
@@ -80,6 +90,13 @@ public class EntertainmentNewsFragment extends Fragment {
                                 Toast.makeText(getContext(), "抱歉，没有更多数据了！", Toast.LENGTH_SHORT).show();
                                 EntertainmentSwipyRefresh.setRefreshing(false);
                     }
+=======
+                        if (pageNum < 2) {
+                            pageNum = 2;
+                            getData(pageNum, 3);
+                        }
+                        getData(pageNum++, 3);
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf
                         break;
                 }
             }
@@ -126,7 +143,11 @@ public class EntertainmentNewsFragment extends Fragment {
                 case 3:
                     mAdapter.notifyDataSetChanged();
                     positionItem = pageNum * 10 - 10;
+<<<<<<< HEAD
                     eRecyclerView.scrollToPosition(positionItem); //定位到指定的行数
+=======
+                    eRecyclerView.scrollToPosition(positionItem);
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf
                     break;
                 case 4:
                     break;

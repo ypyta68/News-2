@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="com.example.news.movenews"
     >
+=======
+    package="com.example.news.movenews" >
+
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf
     <application
         android:name=".News"
         android:allowBackup="true"
@@ -10,16 +15,27 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.DesignDemo" >
+<<<<<<< HEAD
         <activity android:name=".activity.MainActivity" >
+=======
+        <activity android:name=".MainActivity" >
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".activity.NewsWebActivity"/>
         <activity android:name=".activity.NewsCollectionActivity"/>
     </application>
     <uses-permission android:name="android.permission.INTERNET" />
 
+=======
+
+        <activity android:name=".NewsWebActivity"/>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+>>>>>>> 75061d38a2d102768add38d10a2a7a023aece9bf
 </manifest>
