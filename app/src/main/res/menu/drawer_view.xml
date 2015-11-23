@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <group android:checkableBehavior="single">
+       <item
+           android:id="@+id/nav_home"
+           android:icon="@mipmap/ic_action_home"
+           android:title="首页"
+           android:checked="true"/>
+
+       <item
+           android:id="@+id/nav_subscribe"
+           android:icon="@mipmap/ic_action_new_light"
+           android:title="订阅"/>
+
+       <item
+           android:id="@+id/nav_collection"
+           android:icon="@mipmap/ic_action_important"
+           android:title="收藏"
+         />
+       <item
+           android:id="@+id/nav_settings"
+           android:icon="@mipmap/ic_action_settings"
+           android:title="设置"
+          />
+       <item
+           android:id="@+id/nav_about"
+           android:icon="@mipmap/ic_action_about"
+           android:title="关于"
+          />
+   </group>
+</menu>
